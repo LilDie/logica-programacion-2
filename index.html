@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+
+    <h1>Conversor de Temperatura</h1>
+
+    <form id="tempForm">
+        <label for="temperatura">Ingrese la temperatura en grados Celsius:</label>
+        <input type="text" id="temperatura" placeholder="Ej. 25" required>
+        <button type="button" onclick="convertirTemperatura()">Convertir</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="js.js"></script>
+</body>
+</html>
